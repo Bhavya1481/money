@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/expense_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Expense Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/spinner_friends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Friend"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/add_expense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Expense" />
+</LinearLayout>
