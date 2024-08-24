@@ -24,11 +24,20 @@
         android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:text="Login"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        android:textSize="28dp"
+        android:fontFamily="@font/bebas_neue"
+        android:includeFontPadding="true"/>
 
     <Button
         android:id="@+id/signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up" />
+        android:fontFamily="@font/bebas_neue"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        android:textSize="28dp"/>
 </LinearLayout>
