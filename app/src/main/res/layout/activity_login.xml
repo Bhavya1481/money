@@ -3,6 +3,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#9996AB"
     android:padding="16dp">
 
     <EditText
@@ -10,7 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textAllCaps="true"
+        android:background="@drawable/underline_drawable" />
 
     <EditText
         android:id="@+id/password"
@@ -18,7 +21,8 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:background="@drawable/underline_drawable"/>
 
     <Button
         android:id="@+id/login"
@@ -29,7 +33,8 @@
         android:minHeight="48dp"
         android:textSize="28dp"
         android:fontFamily="@font/bebas_neue"
-        android:includeFontPadding="true"/>
+        android:includeFontPadding="true"
+        android:backgroundTint="@color/black"/>
 
     <Button
         android:id="@+id/signup"
@@ -39,5 +44,6 @@
         android:text="Sign Up"
         android:textStyle="bold"
         android:minHeight="48dp"
-        android:textSize="28dp"/>
+        android:textSize="28dp"
+        android:backgroundTint="@color/black"/>
 </LinearLayout>

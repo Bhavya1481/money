@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9996AB"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -9,14 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Expense Name"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColor="@color/black"/>
 
     <EditText
         android:id="@+id/amount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Amount"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColor="@color/black"/>
 
     <Spinner
         android:id="@+id/spinner_friends"
